@@ -32,6 +32,7 @@ in U.S. cities, turning everyday cognitive load into a learnable, replayable cha
 
 ## 🚧 Status
 In active development.
+<br>📄 **[Read the latest update log →](CHANGELOG.md)**
 
 ## 📜 License
 This project is licensed under the MIT License.
