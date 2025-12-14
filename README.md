@@ -30,6 +30,10 @@ in U.S. cities, turning everyday cognitive load into a learnable, replayable cha
 - Mobile (portrait)
 - Tablet (portrait)
 
+## 👓 Accessibilities
+Color is used to reinforce rule semantics, not as the sole carrier of information.
+The game remains readable under common forms of color vision deficiency.
+
 ## 🚧 Status
 In active development.
 <br>📄 **[Read the latest update log →](CHANGELOG.md)**

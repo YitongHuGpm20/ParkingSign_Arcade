@@ -195,7 +195,22 @@ No server-side storage is required.
 
 ---
 
-## 10. Development Status
+## 10. Accessibility Considerations
+
+The game’s visual design ensures that critical information is never conveyed
+by color alone. Rule types are reinforced through layout, text, iconography,
+and brightness contrast, allowing scenarios to remain readable under common
+forms of color vision deficiency.
+
+Color is used to support semantic recognition rather than serve as the primary
+information channel.
+
+All core gameplay elements will be tested in grayscale and simulated color
+vision deficiency modes during development.
+
+---
+
+## 11. Development Status
 
 This document represents **Version 1.0** of the design and will evolve alongside implementation.
 
