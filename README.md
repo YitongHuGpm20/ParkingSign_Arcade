@@ -1,73 +1,38 @@
-# React + TypeScript + Vite
+# 🅿️ParkingSign Arcade🕹️
+🖋️  *A Yitong Hu Game*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧩 About
+An arcade-style web game about decoding real-world U.S. parking signs.
 
-Currently, two official plugins are available:
+🚗 Read the signs  
+⏱ Decide fast  
+💸 Park legally or pay the price
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Game Modes
+- **Arcade Mode** – Score as high as possible before running out of lives
+- **Survival Mode** – Manage money, permits, and weekly salary
+- **Time Mode** – Answer as many as you can, as fast as you can
+- **Zen Mode** No failing, just practicing
 
-## React Compiler
+## 🧠 Design Philosophy
+This game is inspired by the real frustration of interpreting stacked parking signs
+in U.S. cities, turning everyday cognitive load into a learnable, replayable challenge. 
+<br>📄 **[Read the full design document →](docs/GDD.md)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- React + TypeScript
+- Vite
+- Pure CSS UI
+- LocalStorage save data
 
-## Expanding the ESLint configuration
+## 📱 Platforms
+- Desktop
+- Mobile (portrait)
+- Tablet (portrait)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚧 Status
+In active development.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📜 License
+This project is licensed under the MIT License.
+<br>See the [LICENSE](LICENSE) file for details.
