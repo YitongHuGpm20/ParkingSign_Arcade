@@ -1,5 +1,6 @@
 import './App.css';
-import DebugFrame from './DebugFrame';
+import DebugFrame from './Components/DebugFrame';
+import CarAnim from './Components/CarAnim';
 
 //#region ---- Button Actions ---- 
 function openModeSelect() {
@@ -39,6 +40,8 @@ function App() {
                         CREDITS
                     </button>
                 </div>
+                
+                <CarAnim />
             </div>
         </>
     );
