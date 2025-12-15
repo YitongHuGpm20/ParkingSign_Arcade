@@ -3,18 +3,63 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background: #f6f6f6;
+  justify-content: flex-start;
+  padding-top: 75px;
+  background: var(--bg-main);
 }
 
+/*#region ------ Title ------ */
 .title {
   font-size: 48px;
   font-weight: 800;
   letter-spacing: 1px;
-  margin-bottom: 12px;
+  line-height: 1.05;
+  margin: 0;
+  color: var(--sign-grey);
 }
 
-.subtitle {
-  font-size: 18px;
-  color: #555;
+#title-l1 {
+  color: var(--sign-grey);
 }
+
+#title-l2 {
+  color: var(--sign-red);
+}
+/*#endregion*/
+
+/*#region ====== Main Menu ====== */
+.main-menu {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-menu-btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 14px 28px;
+  min-width: 220px;
+  text-align: center;
+
+  background: transparent;
+  color: var(--sign-red);
+
+  border: 2px solid var(--sign-red);
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.main-menu-btn:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
+.main-menu-btn:active {
+  background: rgba(198, 40, 40, 0.16);
+}
+/*#enregion */
